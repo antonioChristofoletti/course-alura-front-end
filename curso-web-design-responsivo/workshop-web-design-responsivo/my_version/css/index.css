@@ -1,0 +1,141 @@
+* {
+    font-family: Arial, helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.line {
+    display: block;
+    padding: 0 5px;
+}
+
+.line__news {
+    padding: 1em 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.default-news-link {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.line__news a:hover {
+    text-decoration: underline;
+}
+
+.font-big {
+    font-size: 1.8em;
+}
+
+.font-normal {
+    font-size: 1.3em;
+}
+
+.font-small {
+    font-size: 1em;
+}
+
+.news-color {
+    color: #ca0000;
+}
+
+.tv-color {
+    color: #ff7f00;
+}
+
+.sport-color {
+    color: #3ea909;
+}
+
+.half-space {
+    box-sizing: border-box;
+    width: 49%;
+    vertical-align: top;
+}
+
+.img-normal {
+    border-radius: 5px;
+}
+
+.img-to-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.img-to-top {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.line__card-carrosel-news {
+    margin: 1em auto;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 450px;
+}
+
+.line__card-carrosel-news a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.line__card-carrosel-news img {
+    width: 100%;
+    margin: -1px 0 0 0;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.line__card-carrosel-news p,
+.line__card-carrosel-news h2 {
+    margin: 1em 0.5em;
+}
+
+.line__card-carrosel-news p {
+    margin: 1em 0.5em;
+    font-size: 1.15em;
+    color: #A0A0A0;
+    font-weight: 600;
+}
+
+.bolinha_cotainer {
+    margin: 1em 0.8em;
+}
+
+.bolinha_cotainer__item {
+    background: #aaa;
+    display: inline-block;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    margin-right: 1em;
+}
+
+.bolinha_cotainer__item:last-child {
+    background: #555;
+}
+
+@media screen and (min-width: 850px) {
+    .line {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .line {
+        width: 32%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
