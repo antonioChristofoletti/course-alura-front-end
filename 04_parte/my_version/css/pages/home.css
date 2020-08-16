@@ -1,0 +1,153 @@
+.banner {
+    background-image: url("../../src/imgs/pages/home/banner2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 370px;
+}
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.principal {
+    background: #FeFFFF;
+    padding-top: 30px;
+}
+
+.principal__content {
+    margin: 0px auto;
+    width: 940px
+}
+
+.principal__content p {
+    margin-bottom: 2.5em;
+    text-align: justify;
+}
+
+.principal__image {
+    margin-right: 40px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    box-shadow: 10px 10px 5px #b3aaaa;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.beneficios {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.beneficios__content {
+    margin: 0 auto;
+    width: 940px;
+    clear: both;
+    text-align: center;
+}
+
+.beneficios__lista {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.beneficios__lista__itens {
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+.beneficios__lista__itens::before {
+    content: "★";
+}
+
+.beneficios__lista__itens:nth-child(1) {
+    font-weight: bold;
+}
+
+.beneficios__imagem {
+    width: 40%;
+    display: inline-block;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 10%;
+}
+
+.mapa {
+    background: #888888;
+    padding-top: 30px;
+}
+
+.mapa p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.mapa__content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.youtube {
+    margin: 0 auto;
+    background: #888888;
+    padding-bottom: 30px;
+}
+
+.youtube__video {
+    width: 600px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 576px) {
+    .principal__content,
+    .beneficios__content,
+    .mapa__content {
+        width: 100%;
+    }
+    .principal__content {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .principal__image {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        box-shadow: none;
+        margin-bottom: 1em;
+    }
+    .principal p:last-child {
+        margin-bottom: 0;
+    }
+    .beneficios__content {
+        padding: 0 20px;
+    }
+    .beneficios__imagem {
+        width: 100%;
+        margin: 0 0 10px 0;
+        display: block;
+        box-shadow: none;
+    }
+    .beneficios__lista {
+        width: 100%;
+    }
+    .youtube__video {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+}
