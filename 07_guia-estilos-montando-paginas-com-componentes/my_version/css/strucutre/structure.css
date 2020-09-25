@@ -1,0 +1,25 @@
+@import "_header.css";
+@import "_main.css";
+@import "_footer.css";
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+
+    grid-template-rows: 70px auto auto;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}

@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--white-main);
+    margin: 0;
+    padding: 2em 1em 2em 2em;
+
+    background-image: url("../../assets/img/splash-rodape.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom -6em right;
+}
+
+.footer__social-midias-list {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.footer__social-midias-list li {
+    margin-right: 20px;
+}
+
+.footer__social-midias-list img {
+    width: 1.625em;
+    height: 1.625em;
+}

@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+.list__icon {
+    width: 2.75em;
+    height: 2.75em;
+    margin-right: 1em;
+    border-radius: 50%;
+    background-color: var(--yellow-main);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center center;
+
+}
+
+.list__icon--mouse {
+    background-image: url("../../assets/img/icones/mouse.svg");
+}
+
+.list__icon--cart {
+    background-image: url("../../assets/img/icones/cart.svg");
+}
+
+.list__icon--truck {
+    background-image: url("../../assets/img/icones/truck.svg");
+}

@@ -1,0 +1,11 @@
+.adress {
+    font-style: normal;
+    line-height: 2em;
+    margin: 1em 0;
+}
+.adress::first-line {
+    color: var(--black-main);
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 2em;
+}

@@ -1,0 +1,24 @@
+@import "_normalize.css";
+:root {
+    --black-main: #000000;
+    --gray-main: #909090;
+    --white-main: #FFFFFF;
+    --yellow-main: #FFCB47;
+    --font-main: "montserrat", Arial;
+    --font-high-light: "Elsie Swash Caps", "Times New Roman";
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    color: var(--gray-main);
+}
+
+body {
+    background-image: url("../../assets/img/fundo-textura.png"), url("../../assets/img/fundo-linhas.png");
+    background-position: center;
+}
+
+.container {
+    padding: 0 1em;
+}

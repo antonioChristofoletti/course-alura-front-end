@@ -1,0 +1,21 @@
+.main-button {
+    font-weight: 600;
+    font-size: 1em;
+    padding: 2em 1em;
+    margin-bottom: 1.3em;
+    outline-width: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.main-button--yellow {
+    background-color: var(--yellow-main);
+    border: none;
+    color: var(--white-main);
+}
+
+.main-button--white {
+    background-color: var(--white-main);
+    border: 1.5px solid var(--yellow-main);
+    color: var(--yellow-main);
+}

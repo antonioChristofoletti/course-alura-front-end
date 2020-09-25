@@ -1,0 +1,55 @@
+.list-products {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.list-products__item {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--white-main);
+    height: 150px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+    min-height: 14em;
+    padding-left: 50%;
+}
+
+.list-products__img {
+    position: absolute;
+    top: 50%;
+    left: -8rem;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 19em;
+}
+
+.list-products__details {
+    margin: 2em 1em 0em 0;
+    padding: 0;
+}
+
+.list-products__details > h2 {
+    margin: 0%;
+}
+
+.list-products__details > p {
+    margin: .5em .5em 2em 0;
+    font-weight: 500;
+}
+
+.list-products__details > a {
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    text-align: start;
+    font-weight: 600;
+    color: var(--yellow-main);
+    background-image: url("../../assets/img/icones/seta.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+}

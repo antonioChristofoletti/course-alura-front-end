@@ -1,0 +1,27 @@
+.introduction {
+    position: relative;
+    background-image: url("../../assets/img/splash-chamada.svg");
+    background-repeat: no-repeat;
+    background-position: right -81px;
+    position: relative;
+    overflow: hidden;
+}
+
+.introduction p {
+    width: 62%;
+    line-height: 1.7em;
+}
+
+.introduction__subscribe {
+    position: relative;
+}
+
+.introduction__subscribe img {
+    position: absolute;
+    right: -20px;
+    top: -300px;
+}
+
+.introduction input {
+    margin-top: 40px;
+}
