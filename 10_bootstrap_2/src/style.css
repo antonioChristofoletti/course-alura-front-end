@@ -1,0 +1,38 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.image-carousel {
+    height: 400px;
+    object-fit: cover;
+}
+
+.image-carousel--position-80-up {
+    object-position: 0 80%;
+}
+
+.image-carousel--position-50-up {
+    object-position: 0 50%;
+}
+
+.custom-font {
+    font-family: 'Pacifico', cursive;
+}
+
+.special-color {
+    color: darkred;
+}
+
+.special-color-botton {
+    background-color: darkred;
+    color: white;
+}
+
+.special-color-border {
+    border-color: darkred;
+}
+
+.card-position-img {
+    object-fit: cover;
+    height: 200px;
+}
