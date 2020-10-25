@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(font/Pacifico/Pacifico-Regular.ttf);
+}
+
+:root {
+    --special-color: darkred;
+    --special-secondary-color: #E00000;
+}
+
+.special-font {
+    font-family: 'Pacifico', cursive;
+}
+
+.special-color {
+    color: var(--special-color) !important;
+}

@@ -20,7 +20,7 @@
 }
 
 .special-color {
-    color: darkred;
+    color: darkred!important;
 }
 
 .special-color-botton {

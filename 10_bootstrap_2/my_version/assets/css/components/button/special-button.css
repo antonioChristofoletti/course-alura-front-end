@@ -1,0 +1,9 @@
+.special-button {
+    background-color: var(--special-color) !important;
+    border-color: var(--special-color) !important;
+}
+
+.special-button:hover {
+    background-color: var(--special-secondary-color) !important;
+    border-color: var(--special-secondary-color) !important;
+}

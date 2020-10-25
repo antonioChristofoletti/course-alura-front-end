@@ -1,0 +1,15 @@
+.special-card {
+    border-color: var(--special-color);
+    padding: 0;
+    height: 450px;
+}
+
+.special-card__img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.special-card__title {
+    font-size: 1.7em;
+}
