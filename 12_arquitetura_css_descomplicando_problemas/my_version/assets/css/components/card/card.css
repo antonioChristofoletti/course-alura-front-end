@@ -1,0 +1,17 @@
+.card {
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    height: 450px;
+    margin: 2em 1em 0 1em;
+    padding-bottom: 1em;
+}
+
+@media screen and (min-width: 450px) {
+    .card {
+        flex-basis: 350px;
+    }
+}

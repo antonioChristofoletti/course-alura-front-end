@@ -1,0 +1,5 @@
+.about__title {
+    color: var(--special-color);
+    font-family: var(--special-font);
+    font-size: 2.5em;
+}

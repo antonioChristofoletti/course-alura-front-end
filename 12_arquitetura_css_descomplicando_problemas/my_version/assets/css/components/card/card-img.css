@@ -1,0 +1,6 @@
+.card__img {
+    object-fit: fill;
+    height: 85%;
+    justify-self: stretch;
+    width: 100%;
+}

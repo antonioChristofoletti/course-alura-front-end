@@ -1,0 +1,11 @@
+.round-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+    .round-list {
+        flex-direction: row;
+    }
+}

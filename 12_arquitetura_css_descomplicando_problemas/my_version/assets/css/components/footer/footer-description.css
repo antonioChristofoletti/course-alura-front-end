@@ -1,0 +1,12 @@
+.footer__description {
+    color: var(--white-color);
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media screen and (max-width: 427px) {
+    .footer__description {
+        font-size: 1em;
+    }
+}

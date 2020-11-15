@@ -1,0 +1,16 @@
+.round-item__img {
+    border-radius: 50%;   
+    width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+    .round-item__img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .round-item__img {
+        width: 250px;
+    }
+}

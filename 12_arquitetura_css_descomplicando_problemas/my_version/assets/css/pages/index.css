@@ -1,0 +1,19 @@
+.staff-list {
+    font-size: 1.1em;
+    margin: 4em 0;
+    text-align: center;
+}
+
+.staff-list__title {
+    color: var(--special-color);
+    font-family: var(--special-font);
+    font-size: 3em;
+    text-align: center;
+}
+
+.staff-list__description {
+    color: var(--gray-59-color);
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: 2em;
+}

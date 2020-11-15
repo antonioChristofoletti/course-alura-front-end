@@ -1,0 +1,10 @@
+.round-item {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .round-item {
+        margin-bottom: 0;
+    }
+}

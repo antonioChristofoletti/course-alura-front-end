@@ -1,0 +1,11 @@
+.menu__item {
+    margin-right: 1em;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__item:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+.card__header {
+    flex-basis: 70%;
+}
+
+.card__header>figure {
+    height: 100%;
+}

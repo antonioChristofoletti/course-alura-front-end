@@ -1,0 +1,22 @@
+@import "_normalize.css";
+@import "_reset.css";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: "Roboto", "Arial";
+}
+
+:root {
+    --special-font: Pacifico, cursive;
+    --white-color: #FFF;
+    --white-f9-color: #f9f9f9;
+    --special-color: #8d0606;
+    --special-darker-color: #6D0202;
+    --gray-e5-color: #e5e5e5;
+    --gray-bf-color: #bfbfbf;
+    --gray-59-color: #595959;
+    --gray-80-color: #808080;
+    --gray-33-color: #333333;
+}

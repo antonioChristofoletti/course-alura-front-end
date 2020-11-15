@@ -1,0 +1,7 @@
+.site-logo {
+    background-image: url("../../../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 60px;
+}

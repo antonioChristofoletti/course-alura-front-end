@@ -1,0 +1,6 @@
+.card-list {
+    background-color: var(--gray-darker-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

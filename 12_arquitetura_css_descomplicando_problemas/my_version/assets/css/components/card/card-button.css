@@ -1,0 +1,17 @@
+.card__button {
+    background-color: var(--special-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 13px;
+}
+
+.card__button:hover {
+    cursor: pointer;
+}
+
+.card__button:active {
+    background-color: var(--special-darker-color);
+}

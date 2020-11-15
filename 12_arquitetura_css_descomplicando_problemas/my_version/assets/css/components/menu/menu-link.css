@@ -1,0 +1,29 @@
+.menu__link {
+    color: var(--gray-80-color);
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu__link--current {
+    color: var(--gray-33-color);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 400px) {
+    .menu__link {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .menu__link {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu__link {
+        font-size: 1.3em;
+    }
+}

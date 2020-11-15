@@ -1,0 +1,7 @@
+.round-item__title {
+    color: var(--special-color);
+    font-family: var(--special-font);
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 0.2em;
+}
